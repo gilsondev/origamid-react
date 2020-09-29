@@ -1,0 +1,14 @@
+.app {}
+
+.notificacao {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: #366c00;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.notificacao.efeito {
+    transition: 1s;
+    transform: translateY(-150%);
+}
